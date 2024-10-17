@@ -2,6 +2,7 @@ import { Button } from "@mui/material";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import { Link } from "react-router-dom";
 
 function BasicExample() {
   return (
@@ -28,12 +29,12 @@ function BasicExample() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Item>
-              <Nav.Link
-                href="/Quiensomos"
+              <Link
+                to="/Quiensomos"
                 style={{ color: "white", fontSize: "105%", marginLeft: "70px" }}
               >
                 ¿Quienes Somos?
-              </Nav.Link>
+              </Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link
