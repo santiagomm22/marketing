@@ -1,0 +1,8 @@
+/* index.css */
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400&display=swap");
+
+body {
+  font-family: "Lora", serif !important; /* Usa !important si es necesario */
+  margin: 0; /* Elimina el margen predeterminado */
+  padding: 0; /* Elimina el padding predeterminado */
+}
