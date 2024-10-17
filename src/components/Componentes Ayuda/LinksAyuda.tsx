@@ -1,4 +1,3 @@
-import React from "react";
 import Card from "react-bootstrap/Card";
 import Paper from "@mui/material/Paper";
 import { Link } from "react-router-dom"; // Importa Link de React Router
