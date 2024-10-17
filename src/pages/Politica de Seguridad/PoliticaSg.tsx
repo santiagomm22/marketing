@@ -1,4 +1,4 @@
-import NavBar from "../../components/Generales/NavBar";
+import { NavBar } from "../../components/Generales/NavBar";
 import Politicas from "../../components/Componentes PoliticasSg/Politicas";
 import Footer from "../../components/Generales/Footer";
 

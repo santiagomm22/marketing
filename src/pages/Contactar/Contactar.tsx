@@ -1,4 +1,4 @@
-import NavBar from "../../components/Generales/NavBar";
+import { NavBar } from "../../components/Generales/NavBar";
 import FormularioContactar from "../../components/Componentes Contactar/FormularioContactar";
 import Footer from "../../components/Generales/Footer";
 

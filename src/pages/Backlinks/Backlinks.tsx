@@ -1,4 +1,4 @@
-import NavBar from "../../components/Generales/NavBar";
+import { NavBar } from "../../components/Generales/NavBar";
 import InfoCard from "../../components/Componentes Backlinks/InfoCard";
 import Footer from "../../components/Generales/Footer";
 

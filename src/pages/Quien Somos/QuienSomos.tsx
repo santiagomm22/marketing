@@ -1,4 +1,4 @@
-import NavBar from "../../components/Generales/NavBar";
+import { NavBar } from "../../components/Generales/NavBar";
 import CardTop from "../../components/Componentes Quiensomos/CardTop";
 import CardServicios from "../../components/Componentes Quiensomos/CardServicios";
 import Footer from "../../components/Generales/Footer";

@@ -1,4 +1,4 @@
-import NavBar from "../../components/Generales/NavBar";
+import { NavBar } from "../../components/Generales/NavBar";
 import TopCard from "../../components/Componentes Marketing/TopCard";
 import Footer from "../../components/Generales/Footer";
 

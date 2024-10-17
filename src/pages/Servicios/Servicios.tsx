@@ -1,4 +1,4 @@
-import NavBar from "../../components/Generales/NavBar";
+import { NavBar } from "../../components/Generales/NavBar";
 import CardHead from "../../components/Componentes Servicios/CardHead";
 import CartasServicios from "../../components/Componentes Servicios/CartasServicios";
 import CartaProduccion from "../../components/Componentes Servicios/CartaProduccion";

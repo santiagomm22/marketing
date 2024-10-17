@@ -1,4 +1,4 @@
-import NavBar from "../../components/Generales/NavBar";
+import { NavBar } from "../../components/Generales/NavBar";
 import LinksAyuda from "../../components/Componentes Ayuda/LinksAyuda";
 import Footer from "../../components/Generales/Footer";
 

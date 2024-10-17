@@ -2,7 +2,7 @@ import Card from "../../components/Componentes Inicio/Card";
 import CartasServicios from "../../components/Componentes Inicio/CartasServicios";
 import OnCard from "../../components/Componentes Inicio/OnCards";
 import Footer from "../../components/Generales/Footer";
-import NavBar from "../../components/Generales/NavBar";
+import { NavBar } from "../../components/Generales/NavBar";
 
 export default function Inicio() {
   return (
