@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
 
-function BasicExample() {
+export const NavBar = () => {
   return (
     <Navbar
       expand="lg"
@@ -28,13 +28,10 @@ function BasicExample() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Item>
-              <Link
-                to="/Quiensomos"
-                style={{ color: "white", fontSize: "105%", marginLeft: "70px" }}
-              >
-                ¿Quienes Somos?
-              </Link>
+            <Nav.Item
+              style={{ color: "white", fontSize: "105%", marginLeft: "70px" }}
+            >
+              <Link to="/Quiensomos">¿Quienes Somos?</Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link
@@ -74,6 +71,4 @@ function BasicExample() {
       </Container>
     </Navbar>
   );
-}
-
-export default BasicExample;
+};

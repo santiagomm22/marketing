@@ -1,8 +1,8 @@
-import NavBar from "../../components/Generales/NavBar";
 import LogosOpciones from "../../components/Componentes Pagos/LogosOpciones";
 import SelectBanco from "../../components/Componentes Pagos/SelectBanco";
 import DatosBancos from "../../components/Componentes Pagos/DatosBancos";
 import Footer from "../../components/Generales/Footer";
+import { NavBar } from "../../components/Generales/NavBar";
 
 export default function Pagos() {
   return (
